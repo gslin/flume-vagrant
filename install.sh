@@ -12,7 +12,7 @@ EOF
     apt-get update
 
     DEBIAN_FRONTEND=noninteractive apt-get -y install git vim-nox
-    DEBIAN_FRONTEND=noninteractive apt-get -y install default-jre flume-ng
+    DEBIAN_FRONTEND=noninteractive apt-get -y install default-jre flume-ng-agent
 }
 
 work
